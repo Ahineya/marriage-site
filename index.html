@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>Holiday guide</title>
+        <link rel="stylesheet" href="css/normalize.css"/>
+        <link rel="stylesheet" href="css/styles.css"/>
+        <script src="https://maps.googleapis.com/maps/api/js"></script>
+        <script src="//www.parsecdn.com/js/parse-1.4.2.min.js"></script>
+        <script src="js/maps.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <header class="guide">
+                <div class="guide-container">
+                    <div class="title">
+                        <h3>Holiday Guide</h3>
+                    </div>
+                    <div class="greeting">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci architecto at culpa laborum modi obcaecati odio officiis sapiente veritatis? Accusamus cumque deleniti id ipsum iure mollitia placeat quaerat, sequi sint?</div>
+                    <div class="info-container">
+                        <div class="timing">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur corporis eligendi esse facilis fugiat magni modi perferendis praesentium quis similique. Cum fuga fugiat harum impedit incidunt maxime neque perferendis quam!</div>
+                        <div class="agenda">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A culpa eligendi, et ex quidem sequi veritatis voluptatum. Debitis deserunt error facilis incidunt neque, nihil officiis perspiciatis quaerat reprehenderit sequi, voluptate.</div>
+                    </div>
+                </div>
+            </header>
+            <div class="map" id="map">
+            </div>
+            <footer class="feedback">
+                <div class="feedback-container">
+                    <div class="title">Ваши отзывы и пожелания...... Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti eum in laborum officia repellat sapiente veritatis. Fuga, maxime, quod! Alias animi consequuntur dolorum eius facere in laborum molestiae, nam reprehenderit!</div>
+                    <div class="feedback-form">
+                        <div class="row">
+                            <label for="username">Ваше имя:</label>
+                            <input type="text" id="username"/>
+                        </div>
+                        <div class="row">
+                            <label for="feedback">Предложение/пожелание:</label>
+                            <textarea id="feedback" cols="30" rows="10"></textarea>
+                        </div>
+                        <div class="row">
+                            <button class="js-send">Отправить</button>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        <script src="js/script.js"></script>
+    </body>
+</html>
